@@ -60,8 +60,8 @@ export default function HeroSection() {
                 variants={childVariants}
                 whileHover={{ scale: 1.05, color: "#4b5563" }}
               >
-                <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
+                {/* <MapPin className="h-4 w-4 mr-2" />
+                📍 {personalInfo.location} */}
               </motion.div>
 
               <motion.a
